@@ -1,12 +1,12 @@
 const {
-getAllTalents,
+  getAllTalents,
   getOneTalents,
   updateTalents,
   createTalents,
   deleteTalents,
-} = require('../../../services/mongoose/talents');
+} = require("../../../services/mongoose/talents");
 
-const { StatusCodes } = require('http-status-codes');
+const { StatusCodes } = require("http-status-codes");
 
 const create = async (req, res, next) => {
   try {
